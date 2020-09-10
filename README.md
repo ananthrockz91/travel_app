@@ -1,2 +1,2 @@
 # travel_app
-This is my test project for Satvat Infosol
+This is my test project.
