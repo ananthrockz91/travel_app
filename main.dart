@@ -660,9 +660,6 @@ class DetailsPage extends StatelessWidget {
                           ],
                         ),
                       ),
-                      SizedBox(
-                        height: 10,
-                      ),
                     ],
                   ),
                 ),
