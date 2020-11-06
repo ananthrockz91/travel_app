@@ -663,13 +663,6 @@ class DetailsPage extends StatelessWidget {
                       SizedBox(
                         height: 10,
                       ),
-                      ListTile(
-                        title: Text(
-                          "I am a self-taught Flutter developer and have ability to develop advanced android and iOS mobile application. I am also a passionate Project Manager with 6+ years of experience in project management. I'm a self-starter and have a thirst for learning.",
-                          style: TextStyle(fontSize: 12),
-                        ),
-                        subtitle: Text("Read more"),
-                      ),
                     ],
                   ),
                 ),
