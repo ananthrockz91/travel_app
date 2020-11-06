@@ -94,7 +94,8 @@ class _MyHomePageState extends State<MyHomePage>
                           width: screenWidth,
                           color: Colors.transparent,
                           child: Padding(
-                            padding: const EdgeInsets.only(left: 20, right: 20, top: 25),
+                            padding: const EdgeInsets.only(
+                                left: 20, right: 20, top: 25),
                             child: Column(
                               children: [
                                 Align(
@@ -185,7 +186,9 @@ class _MyHomePageState extends State<MyHomePage>
                                               ),
                                             ],
                                           ),
-                                            SizedBox(height: 10,),
+                                          SizedBox(
+                                            height: 10,
+                                          ),
                                           Row(
                                             children: [
                                               Expanded(
@@ -194,7 +197,8 @@ class _MyHomePageState extends State<MyHomePage>
                                                   height: 50,
                                                   decoration: BoxDecoration(
                                                     borderRadius:
-                                                    BorderRadius.circular(10),
+                                                        BorderRadius.circular(
+                                                            10),
                                                     color: Colors.amber,
                                                     image: DecorationImage(
                                                       fit: BoxFit.cover,
@@ -213,7 +217,8 @@ class _MyHomePageState extends State<MyHomePage>
                                                   height: 50,
                                                   decoration: BoxDecoration(
                                                     borderRadius:
-                                                    BorderRadius.circular(10),
+                                                        BorderRadius.circular(
+                                                            10),
                                                     color: Colors.amber,
                                                     image: DecorationImage(
                                                       fit: BoxFit.cover,
@@ -241,7 +246,8 @@ class _MyHomePageState extends State<MyHomePage>
                           width: screenWidth,
                           color: Colors.transparent,
                           child: Padding(
-                            padding: const EdgeInsets.only(left: 20, right: 20, top: 25),
+                            padding: const EdgeInsets.only(
+                                left: 20, right: 20, top: 25),
                             child: Column(
                               children: [
                                 Align(
@@ -265,7 +271,7 @@ class _MyHomePageState extends State<MyHomePage>
                                     decoration: BoxDecoration(
                                         color: Colors.white,
                                         borderRadius:
-                                        BorderRadius.circular(20.0),
+                                            BorderRadius.circular(20.0),
                                         boxShadow: [
                                           BoxShadow(
                                               color: Colors.black26,
@@ -279,7 +285,7 @@ class _MyHomePageState extends State<MyHomePage>
                                         children: [
                                           Row(
                                             crossAxisAlignment:
-                                            CrossAxisAlignment.start,
+                                                CrossAxisAlignment.start,
                                             children: [
                                               Icon(Icons.place,
                                                   color: Colors.green),
@@ -288,9 +294,9 @@ class _MyHomePageState extends State<MyHomePage>
                                               ),
                                               Flexible(
                                                   child: Text(
-                                                    "Le Meridian, Cario Le Meridian, Cario Le Meridian, Cario",
-                                                    style: TextStyle(fontSize: 16),
-                                                  )),
+                                                "Le Meridian, Cario Le Meridian, Cario Le Meridian, Cario",
+                                                style: TextStyle(fontSize: 16),
+                                              )),
                                               SizedBox(
                                                 width: 5,
                                               ),
@@ -332,7 +338,9 @@ class _MyHomePageState extends State<MyHomePage>
                                               ),
                                             ],
                                           ),
-                                          SizedBox(height: 10,),
+                                          SizedBox(
+                                            height: 10,
+                                          ),
                                           Row(
                                             children: [
                                               Expanded(
@@ -341,7 +349,8 @@ class _MyHomePageState extends State<MyHomePage>
                                                   height: 50,
                                                   decoration: BoxDecoration(
                                                     borderRadius:
-                                                    BorderRadius.circular(10),
+                                                        BorderRadius.circular(
+                                                            10),
                                                     color: Colors.amber,
                                                     image: DecorationImage(
                                                       fit: BoxFit.cover,
@@ -360,7 +369,8 @@ class _MyHomePageState extends State<MyHomePage>
                                                   height: 50,
                                                   decoration: BoxDecoration(
                                                     borderRadius:
-                                                    BorderRadius.circular(10),
+                                                        BorderRadius.circular(
+                                                            10),
                                                     color: Colors.amber,
                                                     image: DecorationImage(
                                                       fit: BoxFit.cover,
@@ -403,16 +413,20 @@ class _MyHomePageState extends State<MyHomePage>
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
                             RichText(
-                              text: TextSpan(
-                                children: [
-                                  TextSpan(text:
-                                      " \$ 8,500", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22, color: Colors.black),
-                                  ),
-                                  TextSpan(text:
-                                  " /Adult", style: TextStyle(fontSize: 16, color: Colors.black),
-                                  ),
-                                ]
-                              ),
+                              text: TextSpan(children: [
+                                TextSpan(
+                                  text: " \$ 8,500",
+                                  style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 22,
+                                      color: Colors.black),
+                                ),
+                                TextSpan(
+                                  text: " /Adult",
+                                  style: TextStyle(
+                                      fontSize: 16, color: Colors.black),
+                                ),
+                              ]),
                             ),
                             Container(
                               width: 100,
@@ -451,35 +465,31 @@ class _MyHomePageState extends State<MyHomePage>
               ),
             ),
             Container(
-              width: screenWidth,
-              height: screenHeight,
-              color: Colors.greenAccent.withOpacity(0.2),
-              child: Center(
-                child: Text("This is Flights tab"),
-              )
-            ),
+                width: screenWidth,
+                height: screenHeight,
+                color: Colors.greenAccent.withOpacity(0.2),
+                child: Center(
+                  child: Text("This is Flights tab"),
+                )),
             Container(
                 width: screenWidth,
                 height: screenHeight,
                 color: Colors.greenAccent.withOpacity(0.2),
                 child: Center(
                   child: Text('This is Activities tab'),
-                )
-            ),
+                )),
             Container(
                 width: screenWidth,
                 height: screenHeight,
                 color: Colors.greenAccent.withOpacity(0.2),
                 child: Center(
                   child: Text('This is Transfers tab'),
-                )
-            ),
+                )),
           ],
         ),
       ),
     );
   }
-
 }
 
 class DetailsPage extends StatelessWidget {
@@ -549,7 +559,10 @@ class DetailsPage extends StatelessWidget {
                         trailing: Column(
                           children: [
                             Text("4.5"),
-                            Icon(Icons.star, color: Colors.yellow,),
+                            Icon(
+                              Icons.star,
+                              color: Colors.yellow,
+                            ),
                           ],
                         ),
                       ),
@@ -639,14 +652,17 @@ class DetailsPage extends StatelessWidget {
                             ),
                             Column(
                               children: [
-                                Icon(Icons.monetization_on, color: Colors.green),
+                                Icon(Icons.monetization_on,
+                                    color: Colors.green),
                                 Text('Visa')
                               ],
                             ),
                           ],
                         ),
                       ),
-                      SizedBox(height: 10,),
+                      SizedBox(
+                        height: 10,
+                      ),
                       ListTile(
                         title: Text(
                           "I am a self-taught Flutter developer and have ability to develop advanced android and iOS mobile application. I am also a passionate Project Manager with 6+ years of experience in project management. I'm a self-starter and have a thirst for learning.",
@@ -658,17 +674,6 @@ class DetailsPage extends StatelessWidget {
                   ),
                 ),
               ),
-            ),
-          ),
-          Positioned(
-            top: screenHeight * 0.35,
-            left: 20,
-            child: Text(
-              "Ramadan Umrah Package",
-              style: TextStyle(
-                  fontSize: 24,
-                  color: Colors.white,
-                  fontWeight: FontWeight.w700),
             ),
           ),
         ],
