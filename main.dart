@@ -643,20 +643,6 @@ class DetailsPage extends StatelessWidget {
                                 Text('Activities')
                               ],
                             ),
-                            Column(
-                              children: [
-                                Icon(Icons.directions_transit,
-                                    color: Colors.green),
-                                Text('Transfers')
-                              ],
-                            ),
-                            Column(
-                              children: [
-                                Icon(Icons.monetization_on,
-                                    color: Colors.green),
-                                Text('Visa')
-                              ],
-                            ),
                           ],
                         ),
                       ),
